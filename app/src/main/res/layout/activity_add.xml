@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <ImageView
+        android:id="@+id/imgHinhDaiDien"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/btnChupHinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="657dp"
+        android:background="#1E90FF"
+        android:text="Chụp Hình" />
+
+    <Button
+        android:id="@+id/btnChonHinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="588dp"
+        android:background="#1E90FF"
+        android:text="Chọn Hình" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="433dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edtSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="389dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="296dp"
+        android:background="#1E90FF"
+        android:text="Lưu" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="295dp"
+        android:background="#1E90FF"
+        android:text="Hủy" />
+</RelativeLayout>
